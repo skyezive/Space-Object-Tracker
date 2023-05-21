@@ -10,3 +10,16 @@ This study aims to develop and optimise a software tool capable of modelling spa
 This study aims to develop an application that tracks and visualises satellites, focusing on their movement and spatial representation. The application is limited to the position estimation of satellites and space debris which are in Earth’s low orbit, and which have publicly available TLE data on Celestrak. It is important to note that the application is not intended for use in scenarios where precise position accuracy is of critical importance. The application will import Two-Line Element (TLE) data from a third-party satellite tracker and extract the necessary control data. The tracking of object positions will occur at regular time intervals, but it should be noted that the data displayed will not be real-time information.
 
 The scope of this study introduces two important limitations. Firstly, satellites with classified information or objects in unconventional orbits may not be trackable through this application. Secondly, the application's functionality is contingent upon a stable internet connection as it relies on retrieving up-to-date TLE data from Celestrak. Furthermore, it is important to note that this application does not provide real-time position tracking data from the space objects themselves, but instead relies on estimated positions which have been calculated using TLE data and SGP4. The accuracy of satellite position estimation is thus dependent on the precision of the TLE data and the inclusion of perturbations within the environmental model. Finally, the performance of the application may be influenced by the processing speed and graphical capabilities of the user's computer. Older or low-powered machines might experience limitations in efficiently running the GUI application.
+
+## Installation Instructions
+1. Install Python: Make sure you have Python installed on your system. You can download the latest version of Python from the official website (https://www.python.org) and follow the installation instructions for your operating system.
+2. Install Required Packages: Open a terminal or command prompt and execute the following commands to install the required packages:
+
+```
+pip install sgp4
+pip install numpy
+pip install PySide6
+pip install astropy
+```
+
+## Usage Guide
