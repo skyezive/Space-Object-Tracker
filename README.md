@@ -34,10 +34,27 @@ If the packages are installed correctly, you should see the respective package v
 ## Usage Guide
 The `updating2dgui` project is a graphical user interface (GUI) application that allows users to interact with the system easily. It requires the `CelestrakAPI` dependency file to be present.
 ### Prerequisites
-Before running the `updating2dgui` application, make sure you have the following:
 
-- An IDE (Integrated Development Environment) installed on your machine.
-- The `CelestrakAPI` dependency file.
+Before running the updating2dgui application, make sure you have the following:
+
+1. **IDE (Integrated Development Environment):**
+   - Ensure you have an IDE installed on your machine.
+   - Choose an IDE that suits your preferences, such as Visual Studio Code, PyCharm, or Eclipse.
+
+2. **CelestrakAPI Dependency File:**
+   - Obtain the CelestrakAPI dependency file required for interacting with the Celestrak satellite database.
+   - Make sure you have the dependency file available before running the application.
+
+3. **TLE Textile:**
+   - You will need a TLE (Two-Line Elements) file that contains orbital data for the satellites.
+   - There are two options for obtaining the TLE file:
+     - Download it directly from Celestrak, a popular source for satellite information.
+     - Find the TLE file included in the repository where the updating2dgui application is located.
+
+4. **GUI Images:**
+   - The updating2dgui application relies on several PNG images for proper functioning.
+   - Download the required images from the repository and ensure they are available in the appropriate locations for the GUI to display correctly.
+
 
 ### Running the Application
 
