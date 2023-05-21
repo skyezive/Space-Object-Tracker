@@ -52,7 +52,7 @@ Before running the SatelliteTrackerGUI application, make sure you have the follo
      - Find the TLE file included in the repository where the updating2dgui application is located.
 
 4. **GUI Images:**
-   - The updating2dgui application relies on several PNG images for proper functioning.
+   - The SatelliteTrackerGUI application relies on several PNG images for proper functioning.
    - Download the required images from the repository and ensure they are available in the appropriate locations for the GUI to display correctly.
 
 
