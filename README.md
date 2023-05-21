@@ -53,7 +53,7 @@ To run the `updating2dgui` application, follow these steps:
 
 5. The GUI will open up, providing clear and concise controls for navigating and interacting with the system.
 
-## Features
+## Application Features
 
 The project incorporates the following features that address the system requirements:
 
