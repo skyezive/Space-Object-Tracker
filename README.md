@@ -53,3 +53,32 @@ To run the `updating2dgui` application, follow these steps:
 
 5. The GUI will open up, providing clear and concise controls for navigating and interacting with the system.
 
+## Features
+
+The project incorporates the following features that address the system requirements:
+
+### TLE Data Management
+
+- Import TLE data for multiple satellites.
+- Efficiently store the TLE data in a database or data structure.
+- Automatically update the system and replace out-of-date TLE data.
+
+### Orbit Propagation
+
+- Implement an orbit propagation algorithm to determine the trajectories of the satellites.
+- Re-calibrate the satellite positions at frequent regular intervals.
+
+### Graphical User Interface (GUI)
+
+- Visualise the movement of satellites around the Earth.
+- Switch between a 2D view and a 3D view of the space environment.
+- Interact with satellite objects by clicking on them.
+- Display relevant information about the selected satellite.
+- Print or export the TLE data of specified satellites.
+- Easily dismiss the displayed information.
+- Select an orbit propagation interval.
+
+These features provide a comprehensive tool for space object modeling, orbit propagation prediction, and symbolic visualisation of the space environment.
+
+
+
