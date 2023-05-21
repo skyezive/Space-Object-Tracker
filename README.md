@@ -32,3 +32,24 @@ python -c "import astropy; print(astropy.__version__)"
 
 If the packages are installed correctly, you should see the respective package versions printed without any errors.
 ## Usage Guide
+The `updating2dgui` project is a graphical user interface (GUI) application that allows users to interact with the system easily. It requires the `CelestrakAPI` dependency file to be present.
+### Prerequisites
+Before running the `updating2dgui` application, make sure you have the following:
+
+- An IDE (Integrated Development Environment) installed on your machine.
+- The `CelestrakAPI` dependency file.
+
+### Running the Application
+
+To run the `updating2dgui` application, follow these steps:
+
+1. Open your preferred IDE.
+
+2. Import the `CelestrakAPI` dependency file into your project.
+
+3. Locate the `updating2dgui` file in your project.
+
+4. Run the `updating2dgui` file in the IDE.
+
+5. The GUI will open up, providing clear and concise controls for navigating and interacting with the system.
+
