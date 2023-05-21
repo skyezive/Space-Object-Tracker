@@ -21,5 +21,14 @@ pip install numpy
 pip install PySide6
 pip install astropy
 ```
+3. Verify Installation: After the installation process is complete, you can verify if the packages are installed correctly. Run the following commands in the terminal:
 
+```
+python -c "import sgp4; print(sgp4.__version__)"
+python -c "import numpy; print(numpy.__version__)"
+python -c "import PySide6; print(PySide6.__version__)"
+python -c "import astropy; print(astropy.__version__)"
+```
+
+If the packages are installed correctly, you should see the respective package versions printed without any errors.
 ## Usage Guide
