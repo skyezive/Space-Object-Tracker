@@ -32,10 +32,10 @@ python -c "import astropy; print(astropy.__version__)"
 
 If the packages are installed correctly, you should see the respective package versions printed without any errors.
 ## Usage Guide
-The `updating2dgui` project is a graphical user interface (GUI) application that allows users to interact with the system easily. It requires the `CelestrakAPI` dependency file to be present.
+The `SatelliteTrackerGUI` project is a graphical user interface application that allows users to interact with the system easily. It requires the `CelestrakAPI` dependency file to be present.
 ### Prerequisites
 
-Before running the updating2dgui application, make sure you have the following:
+Before running the SatelliteTrackerGUI application, make sure you have the following:
 
 1. **IDE (Integrated Development Environment):**
    - Ensure you have an IDE installed on your machine.
@@ -58,15 +58,15 @@ Before running the updating2dgui application, make sure you have the following:
 
 ### Running the Application
 
-To run the `updating2dgui` application, follow these steps:
+To run the `SatelliteTrackerGUI` application, follow these steps:
 
 1. Open your preferred IDE.
 
 2. Import the `CelestrakAPI` dependency file into your project.
 
-3. Locate the `updating2dgui` file in your project.
+3. Locate the `SatelliteTrackerGUI` file in your project.
 
-4. Run the `updating2dgui` file in the IDE.
+4. Run the `SatelliteTrackerGUI` file in the IDE.
 
 5. The GUI will open up, providing clear and concise controls for navigating and interacting with the system.
 
@@ -85,7 +85,7 @@ The project incorporates the following features that address the system requirem
 - Implement an orbit propagation algorithm to determine the trajectories of the satellites.
 - Re-calibrate the satellite positions at frequent regular intervals.
 
-### Graphical User Interface (GUI)
+### Graphical User Interface
 
 - Visualise the movement of satellites around the Earth.
 - Switch between a 2D view and a 3D view of the space environment.
