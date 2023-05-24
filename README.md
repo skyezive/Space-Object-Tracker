@@ -97,7 +97,7 @@ The project incorporates the following features that address the system requirem
 
 These features provide a comprehensive tool for space object modeling, orbit propagation prediction, and symbolic visualisation of the space environment.
 
-### References
+## References
 [1] M. M. Castronuovo,"Active space debris removal—A preliminary mission analysis and design," *Acta Astronautica*, vol. 69, issues 9-10, pp. 848-859, 2011. ISSN 0094-5765. 
 
 [2] D. Mehrholz, L. Leushacke, W. Flury, R. Jehn, H. Klinkrad, M. Landgraf, ``Detecting, Tracking and Imaging Space Debris," *ESA Bulletin*,  vol. 109, pp. 128 - 134, 2002.
